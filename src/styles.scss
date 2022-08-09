@@ -1,6 +1,8 @@
 @use 'sass:meta';
 
-@include meta.load-css('~normalize.css');
+@include meta.load-css('~tippy.js/dist/tippy.css');
+
+//@import '~tippy.js/dist/tippy.css';
 
 $body-color: red;
 
